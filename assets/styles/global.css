@@ -1,0 +1,57 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "./reset.css";
+
+/* Fonts */
+
+html{
+  font-size: 20px;
+}
+
+body{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* Tech Classes */
+
+body{
+  background: #252935;
+}
+
+
+.wrapper{
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+/* Header */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 16px 32px;
+}
+
+
+
+/* Main */
+
+.slider{
+ 
+  background: #000;
+}
+
+
+/* Footer */
