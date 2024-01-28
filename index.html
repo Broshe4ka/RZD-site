@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Ильфан ебанная чурка))))" />
+    <meta name="description" content="" />
 
-    <title>Сайт для РЖД говна</title>
+    <title>РЖТ.курсы.рф</title>
 
-    <link rel="shortcut icon" href="assets/media/icons/icon.svg" type="svg" />
+    <link rel="shortcut icon" href="/sait/assets/media/icons/LogoSait.png" type="svg" />
     <link rel="stylesheet" href="assets/styles/global.css" />
 
     <script defer src="assets/scripts/main.js"></script>
@@ -19,47 +19,74 @@
 
       
       <header class="header">
-        
+        <div class="Logo">
         <!-- Логотип -->
         <a href="./index.html">
 
-          <img src="" alt="lOgovo Govnoeda">
+          <img src="/sait/assets/media/icons/Logo.png" alt="logo">
           
         </a>
+      </div>
 
         <!-- Ссылки -->
         <div class="header-links">
 
-          <a class="header-link" href="">Каки</a>
-          <a class="header-link" href="">Попы</a> 
-          <a class="header-link" href="">Писи</a> 
-          <a class="header-link" href="">Саки</a> 
+          <a class="header-link header__link_active" href="index.html">Главная</a>
+          <a class="header-link" href="Prof.html">Профессия</a> 
+          <a class="header-link" href="info.html">Информация</a> 
+          <a class="header-link" href="Onas.html">О нас</a> 
 
         </div>
 
         <!-- Поиск -->
-        <form class="header-search">
-
-          <input class="header-search__input" type="search" name="" id="">
-
-          <button class="header-search__button">
-            <img src="" alt="">
-          </button>
-
-        </form>
+          <form name="search" action="#" method="GET" class="search">
+           <input type="text" name="search" placeholder="Поиск" class="search-input">
+           <input type="submit" name="search" value="" class="search-button">
+            
+          </form>
+        
 
       </header>
 
 
 
       <main class="main">
-
-        <section class="slider">
-          <div class="container">
-            <div class="slider-body">
-              zxcczxczxcxc
-            </div>
-          </div>
+        <!--Тема со слайдером и картинками -->
+              <div class="all">
+                <input checked type="radio" name="respond" id="desktop">
+                  <article id="slider">
+                      <input checked type="radio" name="slider" id="switch1">
+                      <input type="radio" name="slider" id="switch2">
+                      <input type="radio" name="slider" id="switch3">
+                      <input type="radio" name="slider" id="switch4">
+                      <input type="radio" name="slider" id="switch5">
+                    <div id="slides">
+                      <div id="overflow">
+                        <div class="image">
+                          <article><img src="/sait/assets/media/icons/2.png"></article>
+                          <article><img src="/sait/assets/media/icons/1.png"></article>
+                          <article><img src="3.jpg"></article>
+                          <article><img src="4.jpg"></article>
+                          <article><img src="5.jpg"></article>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="controls">
+                      <label for="switch1"></label>
+                      <label for="switch2"></label>
+                      <label for="switch3"></label>
+                      <label for="switch4"></label>
+                      <label for="switch5"></label>
+                    </div>
+                    <div id="active">
+                      <label for="switch1"></label>
+                      <label for="switch2"></label>
+                      <label for="switch3"></label>
+                      <label for="switch4"></label>
+                      <label for="switch5"></label>
+                    </div>
+                  </article>
+          
         </section>
 
 
