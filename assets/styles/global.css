@@ -1,32 +1,29 @@
 /* Imports */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import "./reset.css";
 @import "./style.css";
 
 /* Fonts */
 
-html{
+html {
   font-size: 24px;
- 
 }
 
-body{
-  font-family: 'Noto Sans', sans-serif;
+body {
+  font-family: "Noto Sans", sans-serif;
   background: #252935;
-  
 }
 /* Tech Classes */
 
-
-.wrapper{
+.wrapper {
   width: 100%;
-  
+
   display: flex;
   flex-direction: column;
 }
 
 /* Header */
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,61 +34,86 @@ body{
   max-width: 1080;
 }
 
-
 /* Main */
 
-header form div{
+header form div {
   justify-content: center;
 }
-.header-links a{
+.header-links a {
   font-size: 0.875em;
   text-decoration: none;
   color: #000000;
   margin: 0 20px;
-  }
+}
 .header-links a:hover,/*сдесь происходит подчёркивание меню, а ещё изменения цвета при наведение*/
-.header__link_active{
-color: rgb(41, 39, 39);
-font-weight: 600;
-padding-bottom: 3px;
-border-bottom: 3px solid #000000;
+.header__link_active {
+  color: rgb(41, 39, 39);
+  font-weight: 600;
+  padding-bottom: 3px;
+  border-bottom: 3px solid #000000;
 }
 
-.search-input{
+.search-input {
   width: 250px;
   height: 40px;
   border: 2px solid #000000;
   border-radius: 16px;
 }
-.search-button{/*картинка для поиска  меню*/
+.search-button {
+  /*картинка для поиска  меню*/
   margin: 0 5px;
   width: 35px;
   height: 35px;
   border-radius: 16px;
-  background: url("../media/icons/Lypa.png") ;
+  background: url("../media/icons/Lypa.png");
   background-size: cover;
-
 }
-.search{
+.search {
   align-items: center;
   justify-content: space-between;
   display: flex;
 }
 
-
-.Text_r{
-  
-  
+.Text_r {
 }
-.Text_c{
+.Text_c {
   display: inline-block;
   text-align: center;
-  
 }
-.Text_l{
+.Text_l {
   display: inline-block;
   text-align: left;
+}
+/* тут происходит создания текста в рамке*/
+.text_body{
+  width: 100%;
+  background: #3f424b;
+  padding: 50px 0;
+}
+.conteiner_text{
+max-width: 1440px;
+width: 100%;
+padding: 0 15px;
+margin: 0 auto;
+
+}
+.text_heir{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.block_text{
+  flex: calc(33.333% - (30px * 2 / 3));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
   
+}
+.text_end{
+  text-wrap: wrap;
 }
 
 /* Footer */
