@@ -7,22 +7,20 @@
 
 html{
   font-size: 24px;
+ 
 }
 
 body{
   font-family: 'Noto Sans', sans-serif;
-}
-
-/* Tech Classes */
-
-body{
   background: #252935;
+  
 }
+/* Tech Classes */
 
 
 .wrapper{
   width: 100%;
-
+  
   display: flex;
   flex-direction: column;
 }
@@ -39,7 +37,9 @@ body{
   max-width: 1080;
 }
 
+
 /* Main */
+
 header form div{
   justify-content: center;
 }
@@ -79,5 +79,19 @@ border-bottom: 3px solid #000000;
 }
 
 
+.Text_r{
+  
+  
+}
+.Text_c{
+  display: inline-block;
+  text-align: center;
+  
+}
+.Text_l{
+  display: inline-block;
+  text-align: left;
+  
+}
 
 /* Footer */
